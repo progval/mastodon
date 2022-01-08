@@ -61,9 +61,9 @@ if ENV['S3_ENABLED'] == 'true'
 
     s3_options: {
       signature_version: ENV.fetch('S3_SIGNATURE_VERSION') { 'v4' },
-      http_open_timeout: ENV.fetch('S3_OPEN_TIMEOUT') { '5' }.to_i,
-      http_read_timeout: ENV.fetch('S3_READ_TIMEOUT') { '5' }.to_i,
-      http_idle_timeout: 5,
+      http_open_timeout: ENV.fetch('S3_OPEN_TIMEOUT') { '360' }.to_i,
+      http_read_timeout: ENV.fetch('S3_READ_TIMEOUT') { '360' }.to_i,
+      http_idle_timeout: 360,
       retry_limit: 0,
     }
   )
