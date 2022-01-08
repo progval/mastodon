@@ -57,8 +57,8 @@ class Api::BaseController < ApplicationController
     render json: { error: 'Remote data could not be fetched' }, status: 503
   end
 
-  rescue_from OpenSSL::SSL::SSLError do
-    render json: { error: 'Remote SSL certificate could not be verified' }, status: 503
+  rescue_from OpenSSL::SSL::SSLError do |e|
+    render json: { error: 'Remote SSL certificate could not be verified' + e.full_message()}, status: 503
   end
 
   rescue_from Mastodon::NotPermittedError do
