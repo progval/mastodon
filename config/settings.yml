@@ -2,14 +2,30 @@
 # important settings can be changed from the admin interface.
 
 defaults: &defaults
-  site_title: Mastodon
-  site_short_description: ''
-  site_description: ''
-  site_extended_description: ''
+  site_title: 'Octodon'
+  site_short_description: 'oc.todon.fr is a mostly French-speaking Mastodon instance with an active moderation. oc.todon.fr est une instance Mastodon principalement francophone et avec une modération active.'
+  site_description: 'oc.todon.fr is a mostly French-speaking Mastodon instance with an active moderation. oc.todon.fr est une instance Mastodon principalement francophone et avec une modération active.'
+  site_extended_description: "<h3>Règles</h3>
+  <p>Aucun type de harcèlement ou de (micro-)agression n'est toléré, qu'elles soient personnelles ou relèvent d'un système oppressif (misogynie, racisme, LGBTphobies/queerphobie, validisme, etc.). De même pour la promotion de ces oppressions et des mouvements politiques associés (masculinisme, suprémacisme, etc.).</p>
+  <p>La pornographie et la nudité doivent être obligatoirement indiquées comme \"NSFW\". De même pour contenus sensibles/choquants, qui doivent avoir un Content Warning approprié.</p>
+  <p>Sauf exception accordée par l'admin, les publicités sont bannies de cette instance.</p>
+  <p>Enfin, vous devez respecter les lois françaises, y compris celles concernant les droits d'auteurs.</p>
+  
+  <h3>À propos de cette instance</h3>
+  
+  <p>Cette instance est maintenue sur mon temps libre, et je ne souhaite pas me faire rémunérer pour cela.
+  Cependant, je dois louer le matériel, et vous pouvez me donner un coup de main <a href=\"https://liberapay.com/val\">sur Liberapay</a> si vous le souhaitez.</p>
+  
+  <p>Pour suivre les mises à jour de l'instance, abonnez-vous au compte <a href=\"https://oc.todon.fr/@admin\">@admin</a>. Vous pouvez aussi me contacter via ce compte, ou par email à l'adresse progval+octodon arobase progval point net (GPG: <a href=\"https://static.progval.net/public/ValentinLorentz.pub\">3790 43E3 DF96 D323 7E67  82AC 0E08 2B40 E437 6B1E</a>).</p>
+
+  <p>Les listes d'utilisateurices et d'instances bloqué-es et silencié-es ne sont pas visibles publiquement pour éviter des plaintes pour diffamation. Elles sont en revanche disponibles sur demande en message privé à <a href=\"https://oc.todon.fr/@admin\">@admin</a> ou par email.
+
+  <h3>Mentions légales</h3>
+  <p>Ce site web est hébergé à titre non lucratif par Val Lorentz sur un serveur loué en France chez <a href=\"https://www.online.net/\">Online.net</a>.. Les contenus présents sur ce site sont uniquement la responsabilité de leur auteurice.</p>"
   site_terms: ''
-  site_contact_username: ''
-  site_contact_email: ''
-  registrations_mode: 'none'
+  site_contact_username: 'val'
+  site_contact_email: 'progval+octodon@progval.net'
+  registrations_mode: 'open'
   profile_directory: true
   closed_registrations_message: ''
   timeline_preview: true
