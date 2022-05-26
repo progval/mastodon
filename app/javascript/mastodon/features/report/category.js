@@ -7,8 +7,6 @@ import Button from 'mastodon/components/button';
 import Option from './components/option';
 
 const messages = defineMessages({
-  dislike: { id: 'report.reasons.dislike', defaultMessage: 'I don\'t like it' },
-  dislike_description: { id: 'report.reasons.dislike_description', defaultMessage: 'It is not something you want to see' },
   spam: { id: 'report.reasons.spam', defaultMessage: 'It\'s spam' },
   spam_description: { id: 'report.reasons.spam_description', defaultMessage: 'Malicious links, fake engagement, or repetitive replies' },
   violation: { id: 'report.reasons.violation', defaultMessage: 'It violates server rules' },
@@ -40,9 +38,6 @@ class Category extends React.PureComponent {
     const { onNextStep, category } = this.props;
 
     switch(category) {
-    case 'dislike':
-      onNextStep('thanks');
-      break;
     case 'violation':
       onNextStep('rules');
       break;
@@ -64,12 +59,10 @@ class Category extends React.PureComponent {
     const { category, startedFrom, rules, intl } = this.props;
 
     const options = rules.size > 0 ? [
-      'dislike',
       'spam',
       'violation',
       'other',
     ] : [
-      'dislike',
       'spam',
       'other',
     ];
