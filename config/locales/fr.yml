@@ -1,7 +1,7 @@
 ---
 fr:
   about:
-    about_hashtag_html: Voici des messages publics tagués avec <strong>#%{hashtag}</strong>. Vous pouvez interagir avec si vous avez un compte n’importe où dans le fédiverse.
+    about_hashtag_html: Voici des pouets publics tagués avec <strong>#%{hashtag}</strong>. Vous pouvez interagir avec si vous avez un compte n’importe où dans le fédiverse.
     about_mastodon_html: 'Le réseau social de l''avenir : pas de publicité, pas de surveillance institutionnelle, conception éthique et décentralisation ! Gardez le contrôle de vos données avec Mastodon !'
     about_this: À propos
     active_count_after: actif·ve·s
@@ -11,8 +11,8 @@ fr:
     apps: Applications mobiles
     apps_platforms: Utilisez Mastodon depuis iOS, Android et d’autres plates-formes
     browse_directory: Parcourir l’annuaire des profils et filtrer par centres d’intérêts
-    browse_local_posts: Parcourir en direct un flux de messages publics depuis ce serveur
-    browse_public_posts: Parcourir en direct un flux de messages publics sur Mastodon
+    browse_local_posts: Parcourir en direct un flux de pouets publics depuis ce serveur
+    browse_public_posts: Parcourir en direct un flux de pouets publics sur Mastodon
     contact: Contact
     contact_missing: Non défini
     contact_unavailable: Non disponible
@@ -35,8 +35,8 @@ fr:
     server_stats: 'Statistiques du serveur :'
     source_code: Code source
     status_count_after:
-      one: message
-      other: messages
+      one: pouet
+      other: pouets
     status_count_before: Qui a publié
     tagline: Suivez vos ami·e·s et découvrez-en de nouveaux·elles
     terms: Conditions d’utilisation
@@ -46,7 +46,7 @@ fr:
       reason: Motif
       rejecting_media: 'Les fichiers média de ces serveurs ne seront ni traités ni stockés, et aucune miniature ne sera affichée, rendant nécessaire de cliquer vers le fichier d’origine :'
       rejecting_media_title: Médias filtrés
-      silenced: 'Les messages de ces serveurs seront cachés des flux publics et conversations, et les interactions de leurs utilisateur·rice·s ne donneront lieu à aucune notification, à moins que vous ne les suiviez :'
+      silenced: 'Les pouets de ces serveurs seront cachés des flux publics et conversations, et les interactions de leurs utilisateur·rice·s ne donneront lieu à aucune notification, à moins que vous ne les suiviez :'
       silenced_title: Serveurs limités
       suspended: 'Aucune donnée venant de ces serveurs ne sera traitée, stockée ou échangée, rendant impossible toute interaction ou communication avec les utilisateur·rice·s de ces serveurs :'
       suspended_title: Serveurs suspendus
@@ -78,10 +78,10 @@ fr:
     pin_errors:
       following: Vous devez être déjà abonné·e à la personne que vous désirez recommander
     posts:
-      one: Message
-      other: Messages
-    posts_tab_heading: Messages
-    posts_with_replies: Messages et réponses
+      one: Pouet
+      other: Pouets
+    posts_tab_heading: Pouets
+    posts_with_replies: Pouets et réponses
     roles:
       admin: Admin
       bot: Robot
@@ -207,7 +207,7 @@ fr:
         targeted_reports: Signalés par d’autres
       silence: Limiter
       silenced: Limité
-      statuses: Messages
+      statuses: Pouets
       strikes: Punitions précédentes
       subscribe: S’abonner
       suspend: Suspendre
@@ -252,7 +252,7 @@ fr:
         destroy_email_domain_block: Supprimer le blocage de domaine de courriel
         destroy_instance: Purge du domaine
         destroy_ip_block: Supprimer la règle IP
-        destroy_status: Supprimer le message
+        destroy_status: Supprimer le pouet
         destroy_unavailable_domain: Supprimer le domaine indisponible
         disable_2fa_user: Désactiver l’A2F
         disable_custom_emoji: Désactiver les émojis personnalisés
@@ -280,7 +280,7 @@ fr:
         update_announcement: Modifier l’annonce
         update_custom_emoji: Mettre à jour les émojis personnalisés
         update_domain_block: Mettre à jour le blocage de domaine
-        update_status: Mettre à jour le message
+        update_status: Mettre à jour le pouet
       actions:
         approve_appeal_html: "%{name} a approuvé l'appel de la décision de modération émis par %{target}"
         approve_user_html: "%{name} a approuvé l’inscription de %{target}"
@@ -303,7 +303,7 @@ fr:
         destroy_email_domain_block_html: "%{name} a débloqué le domaine de courriel %{target}"
         destroy_instance_html: "%{name} a purgé le domaine %{target}"
         destroy_ip_block_html: "%{name} a supprimé la règle pour l'IP %{target}"
-        destroy_status_html: "%{name} a supprimé le message de %{target}"
+        destroy_status_html: "%{name} a supprimé le pouet de %{target}"
         destroy_unavailable_domain_html: "%{name} a repris la livraison au domaine %{target}"
         disable_2fa_user_html: "%{name} a désactivé l'authentification à deux facteurs pour l'utilisateur·rice %{target}"
         disable_custom_emoji_html: "%{name} a désactivé l'émoji %{target}"
@@ -331,7 +331,7 @@ fr:
         update_announcement_html: "%{name} a mis à jour l'annonce %{target}"
         update_custom_emoji_html: "%{name} a mis à jour l'émoji %{target}"
         update_domain_block_html: "%{name} a mis à jour le blocage de domaine pour %{target}"
-        update_status_html: "%{name} a mis à jour le message de %{target}"
+        update_status_html: "%{name} a mis à jour le pouet de %{target}"
       deleted_status: "(message supprimé)"
       empty: Aucun journal trouvé.
       filter_by_action: Filtrer par action
@@ -433,7 +433,7 @@ fr:
         create: Créer le blocage
         hint: Le blocage de domaine n’empêchera pas la création de comptes dans la base de données, mais il appliquera automatiquement et rétrospectivement des méthodes de modération spécifiques sur ces comptes.
         severity:
-          desc_html: "<strong>Masquer</strong> rendra les messages des comptes concernés invisibles à ceux qui ne les suivent pas. <strong>Suspendre</strong> supprimera tout le contenu des comptes concernés, les médias, et les données du profil. Utilisez <strong>Aucune</strong> si vous voulez simplement rejeter les fichiers multimédia."
+          desc_html: "<strong>Masquer</strong> rendra les pouets des comptes concernés invisibles à ceux qui ne les suivent pas. <strong>Suspendre</strong> supprimera tout le contenu des comptes concernés, les médias, et les données du profil. Utilisez <strong>Aucune</strong> si vous voulez simplement rejeter les fichiers multimédia."
           noop: Aucune
           silence: Masqué
           suspend: Suspendre
@@ -513,7 +513,7 @@ fr:
         instance_languages_dimension: Langues les plus utilisées
         instance_media_attachments_measure: fichiers médias stockés
         instance_reports_measure: signalements mentionnant l'instance
-        instance_statuses_measure: messages stockés
+        instance_statuses_measure: pouets stockés
       delivery:
         all: Tout
         clear: Effacer les erreurs de livraison
@@ -572,11 +572,11 @@ fr:
     relays:
       add_new: Ajouter un nouveau relais
       delete: Supprimer
-      description_html: Un <strong>relai de fédération</strong> est un serveur intermédiaire qui échange de grandes quantités de messages publics entre les serveurs qui s’inscrivent et ceux qui publient dessus. <strong>Il peut aider les petits et moyens serveurs à découvrir du contenu sur le fediverse</strong>, ce qui normalement nécessiterait que leurs membres suivent des gens inscrits sur d’autres serveurs.
+      description_html: Un <strong>relai de fédération</strong> est un serveur intermédiaire qui échange de grandes quantités de pouets publics entre les serveurs qui s’inscrivent et ceux qui publient dessus. <strong>Il peut aider les petits et moyens serveurs à découvrir du contenu sur le fediverse</strong>, ce qui normalement nécessiterait que leurs membres suivent des gens inscrits sur d’autres serveurs.
       disable: Désactiver
       disabled: Désactivé
       enable: Activer
-      enable_hint: Une fois activé, votre serveur souscrira à tous les messages publics de ce relais et y enverra ses propres messages publics.
+      enable_hint: Une fois activé, votre serveur souscrira à tous les pouets publics de ce relais et y enverra ses propres pouets publics.
       enabled: Activé
       inbox_url: URL du relais
       pending: En attente de l’approbation du relai
@@ -597,8 +597,8 @@ fr:
       action_log: Journal d’audit
       action_taken_by: Intervention de
       actions:
-        delete_description_html: Les messages signalés seront supprimés et une sanction sera enregistrée pour vous aider à prendre les mesures appropriées en cas d'infractions futures par le même compte.
-        mark_as_sensitive_description_html: Les médias des messages signalés seront marqués comme sensibles et une sanction sera enregistrée pour vous aider à prendre les mesures appropriées en cas d'infractions futures par le même compte.
+        delete_description_html: Les pouets signalés seront supprimés et une sanction sera enregistrée pour vous aider à prendre les mesures appropriées en cas d'infractions futures par le même compte.
+        mark_as_sensitive_description_html: Les médias des pouets signalés seront marqués comme sensibles et une sanction sera enregistrée pour vous aider à prendre les mesures appropriées en cas d'infractions futures par le même compte.
         other_description_html: Voir plus d'options pour contrôler le comportement du compte et personnaliser la communication vers le compte signalé.
         resolve_description_html: Aucune mesure ne sera prise contre le compte signalé, aucune sanction ne sera enregistrée et le sigalement sera clôturé.
         silence_description_html: Le profil ne sera visible que pour ceux qui le suivent déjà ou le consultent manuellement, ce qui limite considérablement sa portée. Peut toujours être restauré.
@@ -615,7 +615,7 @@ fr:
         none: Aucun
       comment_description_html: 'Pour fournir plus d''informations, %{name} a écrit :'
       created_at: Signalé
-      delete_and_resolve: Supprimer les messages
+      delete_and_resolve: Supprimer les pouets
       forwarded: Transféré
       forwarded_to: Transféré à %{domain}
       mark_as_resolved: Marquer comme résolu
@@ -657,7 +657,7 @@ fr:
       title: Règles du serveur
     settings:
       activity_api_enabled:
-        desc_html: Nombre de messages publiés localement, de comptes actifs et de nouvelles inscriptions regroupés par semaine
+        desc_html: Nombre de pouets publiés localement, de comptes actifs et de nouvelles inscriptions regroupés par semaine
         title: Publier des statistiques agrégées sur l’activité des utilisateur·rice·s
       bootstrap_timeline_accounts:
         desc_html: Séparez les noms d'utilisateur·rice·s par des virgules. Ces comptes seront affichés dans les recommendations d'abonnement
@@ -756,14 +756,14 @@ fr:
       deleted: Supprimé
       media:
         title: Médias
-      no_status_selected: Aucun message n’a été modifié car aucun n’a été sélectionné
-      title: Messages du compte
+      no_status_selected: Aucun pouet n’a été modifié car aucun n’a été sélectionné
+      title: Pouets du compte
       with_media: Avec médias
     strikes:
       actions:
-        delete_statuses: "%{name} a supprimé les messages de %{target}"
+        delete_statuses: "%{name} a supprimé les pouets de %{target}"
         disable: "%{name} a gelé le compte de %{target}"
-        mark_statuses_as_sensitive: "%{name} a marqué le message de %{target} comme sensible"
+        mark_statuses_as_sensitive: "%{name} a marqué le pouet de %{target} comme sensible"
         none: "%{name} a envoyé un avertissement à %{target}"
         sensitive: "%{name} a marqué le compte de %{target} comme sensible"
         silence: "%{name} a limité le compte de %{target}"
@@ -794,7 +794,7 @@ fr:
       links:
         allow: Autoriser le lien
         allow_provider: Autoriser l'éditeur
-        description_html: Ces liens sont actuellement énormément partagés par des comptes dont votre serveur voit les messages. Cela peut aider vos utilisateur⋅rice⋅s à découvrir ce qu'il se passe dans le monde. Aucun lien n'est publiquement affiché tant que vous n'avez pas approuvé le compte qui le publie. Vous pouvez également autoriser ou rejeter les liens individuellement.
+        description_html: Ces liens sont actuellement énormément partagés par des comptes dont votre serveur voit les pouets. Cela peut aider vos utilisateur⋅rice⋅s à découvrir ce qu'il se passe dans le monde. Aucun lien n'est publiquement affiché tant que vous n'avez pas approuvé le compte qui le publie. Vous pouvez également autoriser ou rejeter les liens individuellement.
         disallow: Interdire le lien
         disallow_provider: Interdire l'éditeur
         shared_by_over_week:
@@ -811,16 +811,16 @@ fr:
         title: Éditeurs
       rejected: Rejeté
       statuses:
-        allow: Autoriser le message
+        allow: Autoriser le pouet
         allow_account: Autoriser l'auteur·rice
-        description_html: Voici les messages dont votre serveur a connaissance qui sont beaucoup partagés et mis en favoris en ce moment. Cela peut aider vos utilisateur⋅rice⋅s, néophytes comme aguerri⋅e⋅s, à trouver plus de comptes à suivre. Aucun message n'est publiquement affiché tant que vous n'en avez pas approuvé l'auteur⋅rice, et seulement si icellui permet que son compte soit suggéré aux autres. Vous pouvez également autoriser ou rejeter les messages individuellement.
-        disallow: Proscrire le message
+        description_html: Voici les pouets dont votre serveur a connaissance qui sont beaucoup partagés et mis en favoris en ce moment. Cela peut aider vos utilisateur⋅rice⋅s, néophytes comme aguerri⋅e⋅s, à trouver plus de comptes à suivre. Aucun pouet n'est publiquement affiché tant que vous n'en avez pas approuvé l'auteur⋅rice, et seulement si icellui permet que son compte soit suggéré aux autres. Vous pouvez également autoriser ou rejeter les pouets individuellement.
+        disallow: Proscrire le pouet
         disallow_account: Proscrire l'auteur·rice
         not_discoverable: L'auteur⋅rice n'a pas choisi de pouvoir être découvert⋅e
         shared_by:
           one: Partagé ou ajouté aux favoris une fois
           other: Partagé et ajouté aux favoris %{friendly_count} fois
-        title: Messages tendance
+        title: Pouets tendance
       tags:
         current_score: Score actuel %{score}
         dashboard:
@@ -829,7 +829,7 @@ fr:
           tag_servers_dimension: Meilleurs serveurs
           tag_servers_measure: différents serveurs
           tag_uses_measure: utilisations totales
-        description_html: Ces hashtags apparaissent actuellement dans de nombreux messages que votre serveur voit. Cela peut aider vos utilisateur⋅rice⋅s à découvrir les sujets dont les gens parlent le plus en ce moment. Aucun hashtag n'est publiquement affiché tant que vous ne l'avez pas approuvé.
+        description_html: Ces hashtags apparaissent actuellement dans de nombreux pouets que votre serveur voit. Cela peut aider vos utilisateur⋅rice⋅s à découvrir les sujets dont les gens parlent le plus en ce moment. Aucun hashtag n'est publiquement affiché tant que vous ne l'avez pas approuvé.
         listable: Peut être suggéré
         not_listable: Ne sera pas suggéré
         not_trendable: N'apparaîtra pas sous les tendances
@@ -854,9 +854,9 @@ fr:
   admin_mailer:
     new_appeal:
       actions:
-        delete_statuses: effacer les messages
+        delete_statuses: effacer les pouets
         disable: geler le compte
-        mark_statuses_as_sensitive: marquer les messages comme sensibles
+        mark_statuses_as_sensitive: marquer les pouets comme sensibles
         none: un avertissement
         sensitive: marquer le compte comme sensible
         silence: limiter le compte
@@ -878,9 +878,9 @@ fr:
         requirements: N'importe quel élément de la sélection pourrait surpasser le lien tendance approuvé n°%{rank}, qui est actuellement « %{lowest_link_title} » avec un résultat de %{lowest_link_score}.
         title: Liens tendance
       new_trending_statuses:
-        no_approved_statuses: Il n'y a pas de message tendance approuvé actuellement.
-        requirements: N'importe quel élément de la sélection pourrait surpasser le message tendance approuvé n°%{rank}, qui est actuellement « %{lowest_status_url} » avec un résultat de %{lowest_status_score}.
-        title: Messages tendance
+        no_approved_statuses: Il n'y a pas de pouet tendance approuvé actuellement.
+        requirements: N'importe quel élément de la sélection pourrait surpasser le pouet tendance approuvé n°%{rank}, qui est actuellement « %{lowest_status_url} » avec un résultat de %{lowest_status_score}.
+        title: Pouets tendance
       new_trending_tags:
         no_approved_tags: Il n'y a pas de hashtag tendance approuvé actuellement.
         requirements: 'N''importe quel élément de la sélection pourrait surpasser le hashtag tendance approuvé n°%{rank}, qui est actuellement #%{lowest_tag_name} avec un résultat de %{lowest_tag_score}.'
@@ -904,14 +904,14 @@ fr:
       guide_link: https://fr.crowdin.com/project/mastodon
       guide_link_text: Tout le monde peut y contribuer.
     sensitive_content: Contenu sensible
-    toot_layout: Agencement des messages
+    toot_layout: Agencement des pouets
   application_mailer:
     notification_preferences: Modifier les préférences de courriel
     salutation: "%{name},"
     settings: 'Changer les préférences courriel : %{link}'
     view: 'Voir :'
     view_profile: Voir le profil
-    view_status: Afficher le message
+    view_status: Afficher le pouet
   applications:
     created: Application créée avec succès
     destroyed: Application supprimée avec succès
@@ -930,7 +930,7 @@ fr:
     description:
       prefix_invited_by_user: "@%{name} vous invite à rejoindre ce serveur Mastodon !"
       prefix_sign_up: Inscrivez-vous aujourd’hui sur Mastodon !
-      suffix: Avec un compte, vous pourrez suivre des gens, publier des statuts et échanger des messages avec les utilisateur·rice·s de n'importe quel serveur Mastodon et bien plus !
+      suffix: Avec un compte, vous pourrez suivre des gens, publier des statuts et échanger des pouets avec les utilisateur·rice·s de n'importe quel serveur Mastodon et bien plus !
     didnt_get_confirmation: Vous n’avez pas reçu les consignes de confirmation ?
     dont_have_your_security_key: Vous n'avez pas votre clé de sécurité?
     forgot_password: Mot de passe oublié ?
@@ -1014,7 +1014,7 @@ fr:
     warning:
       before: 'Veuillez lire attentivement ces notes avant de continuer :'
       caches: Le contenu mis en cache par d'autres serveurs peut persister
-      data_removal: Vos messages et autres données seront définitivement supprimés
+      data_removal: Vos pouets et autres données seront définitivement supprimés
       email_change_html: Vous pouvez <a href="%{path}">modifier votre adresse courriel</a> sans supprimer votre compte
       email_contact_html: S'il n'arrive toujours pas, vous pouvez envoyer un courriel à <a href="mailto:%{email}">%{email}</a> pour demander de l'aide
       email_reconfirmation_html: Si vous ne recevez pas le courriel de confirmation, vous pouvez le <a href="%{path}">demander à nouveau</a>
@@ -1042,13 +1042,13 @@ fr:
       description_html: Ce sont les mesures prises contre votre compte et les avertissements qui vous ont été envoyés par les responsables de %{instance}.
       recipient: Adressé à
       reject_appeal: Rejeter l’appel
-      status: 'Message #%{id}'
-      status_removed: Message déjà supprimé du système
+      status: 'Pouet #%{id}'
+      status_removed: Pouet déjà supprimé du système
       title: "%{action} du %{date}"
       title_actions:
-        delete_statuses: Suppression de message
+        delete_statuses: Suppression de pouet
         disable: Gel du compte
-        mark_statuses_as_sensitive: Marquage des messages comme sensibles
+        mark_statuses_as_sensitive: Marquage des pouets comme sensibles
         none: Avertissement
         sensitive: Marquage du compte comme sensible
         silence: Limitation du compte
@@ -1095,7 +1095,7 @@ fr:
     add_new: Ajouter un nouveau hashtag
     errors:
       limit: Vous avez déjà mis en avant le nombre maximum de hashtags
-    hint_html: "<strong>Que sont les hashtags mis en avant ?</strong> Ils sont affichés en évidence sur votre profil public et permettent aux gens de parcourir vos messages publics qui utilisent ces hashtags. Ils sont un excellent outil pour garder la trace d’activités créatrices ou de projets de long terme."
+    hint_html: "<strong>Que sont les hashtags mis en avant ?</strong> Ils sont affichés en évidence sur votre profil public et permettent aux gens de parcourir vos pouets publics qui utilisent ces hashtags. Ils sont un excellent outil pour garder la trace d’activités créatrices ou de projets de long terme."
   filters:
     contexts:
       account: Profils
@@ -1189,7 +1189,7 @@ fr:
     title: Historique d'authentification
   media_attachments:
     validations:
-      images_and_video: Impossible de joindre une vidéo à un message contenant déjà des images
+      images_and_video: Impossible de joindre une vidéo à un pouet contenant déjà des images
       not_ready: Impossible de joindre les fichiers en cours de traitement. Réessayez dans un instant !
       too_many: Impossible de joindre plus de 4 fichiers
   migrations:
@@ -1235,7 +1235,7 @@ fr:
         subject: "%{name} s'est inscrit·e"
     digest:
       action: Voir toutes les notifications
-      body: Voici un bref résumé des messages que vous avez raté depuis votre dernière visite le %{since}
+      body: Voici un bref résumé des pouets que vous avez raté depuis votre dernière visite le %{since}
       mention: "%{name} vous a mentionné⋅e dans :"
       new_followers_summary:
         one: De plus, vous avez un·e nouvel·le abonné·e ! Youpi !
@@ -1245,8 +1245,8 @@ fr:
         other: "%{count} nouvelles notifications depuis votre dernière visite 🐘"
       title: Pendant votre absence…
     favourite:
-      body: "%{name} a ajouté votre message à ses favoris :"
-      subject: "%{name} a ajouté votre message à ses favoris"
+      body: "%{name} a ajouté votre pouet à ses favoris :"
+      subject: "%{name} a ajouté votre pouet à ses favoris"
       title: Nouveau favori
     follow:
       body: "%{name} vous suit !"
@@ -1265,13 +1265,13 @@ fr:
     poll:
       subject: Un sondage de %{name} est terminé
     reblog:
-      body: 'Votre message été partagé par %{name} :'
-      subject: "%{name} a partagé votre message"
+      body: 'Votre pouet été partagé par %{name} :'
+      subject: "%{name} a partagé votre pouet"
       title: Nouveau partage
     status:
       subject: "%{name} vient de publier"
     update:
-      subject: "%{name} a modifié un message"
+      subject: "%{name} a modifié un pouet"
   notifications:
     email_events: Événements pour les notifications par courriel
     email_events_hint: 'Sélectionnez les événements pour lesquels vous souhaitez recevoir des notifications :'
@@ -1346,24 +1346,24 @@ fr:
   remote_interaction:
     favourite:
       proceed: Confirmer l’ajout aux favoris
-      prompt: 'Vous souhaitez ajouter ce message à vos favoris :'
+      prompt: 'Vous souhaitez ajouter ce pouet à vos favoris :'
     reblog:
       proceed: Confirmer le partage
-      prompt: 'Vous souhaitez partager ce message :'
+      prompt: 'Vous souhaitez partager ce pouet :'
     reply:
       proceed: Confirmer la réponse
-      prompt: 'Vous souhaitez répondre à ce message :'
+      prompt: 'Vous souhaitez répondre à ce pouet :'
   reports:
     errors:
       invalid_rules: ne fait pas référence à des règles valides
   rss:
     content_warning: 'Avertissement de contenu :'
     descriptions:
-      account: Messages publics de @%{acct}
-      tag: 'Messages publics taggés #%{hashtag}'
+      account: Pouets publics de @%{acct}
+      tag: 'Pouets publics taggés #%{hashtag}'
   scheduled_statuses:
-    over_daily_limit: Vous avez dépassé la limite de %{limit} messages planifiés par jour
-    over_total_limit: Vous avez dépassé la limite de %{limit} messages planifiés
+    over_daily_limit: Vous avez dépassé la limite de %{limit} pouets planifiés par jour
+    over_total_limit: Vous avez dépassé la limite de %{limit} pouets planifiés
     too_soon: La date planifiée doit être dans le futur
   sessions:
     activity: Dernière activité
@@ -1426,7 +1426,7 @@ fr:
     preferences: Préférences
     profile: Profil
     relationships: Abonnements et abonné·e·s
-    statuses_cleanup: Suppression automatique de messages
+    statuses_cleanup: Suppression automatique de pouets
     strikes: Sanctions de modération
     two_factor_authentication: Identification à deux facteurs
     webauthn_authentication: Clés de sécurité
@@ -1450,13 +1450,13 @@ fr:
       other: 'contient les hashtags désactivés : %{tags}'
     edited_at_html: Édité le %{date}
     errors:
-      in_reply_not_found: Le message auquel vous essayez de répondre ne semble pas exister.
+      in_reply_not_found: Le pouet auquel vous essayez de répondre ne semble pas exister.
     open_in_web: Ouvrir sur le web
     over_character_limit: limite de %{max} caractères dépassée
     pin_errors:
-      direct: Les messages qui ne sont visibles que pour les utilisateur·rice·s mentionné·e·s ne peuvent pas être épinglés
-      limit: Vous avez déjà épinglé le nombre maximum de messages
-      ownership: Vous ne pouvez pas épingler un message ne vous appartenant pas
+      direct: Les pouets qui ne sont visibles que pour les utilisateur·rice·s mentionné·e·s ne peuvent pas être épinglés
+      limit: Vous avez déjà épinglé le nombre maximum de pouets
+      ownership: Vous ne pouvez pas épingler un pouet ne vous appartenant pas
       reblog: Un partage ne peut pas être épinglé
     poll:
       total_people:
@@ -1477,30 +1477,30 @@ fr:
       private: Abonné⋅e⋅s uniquement
       private_long: Afficher seulement à vos vos abonné·e·s
       public: Publique
-      public_long: Tout le monde peut voir vos messages
+      public_long: Tout le monde peut voir vos pouets
       unlisted: Public sans être affiché sur le fil public
-      unlisted_long: Tout le monde peut voir vos messages mais ils ne seront pas listés sur les fils publics
+      unlisted_long: Tout le monde peut voir vos pouets mais ils ne seront pas listés sur les fils publics
   statuses_cleanup:
-    enabled: Supprimer automatiquement vos anciens messages
-    enabled_hint: Supprime automatiquement vos messages une fois qu'ils ont atteint un seuil d'ancienneté défini, à moins qu'ils ne correspondent à l'une des exceptions ci-dessous
+    enabled: Supprimer automatiquement vos anciens pouets
+    enabled_hint: Supprime automatiquement vos pouets une fois qu'ils ont atteint un seuil d'ancienneté défini, à moins qu'ils ne correspondent à l'une des exceptions ci-dessous
     exceptions: Exceptions
-    explanation: Parce que la suppression de messages est une opération lourde, cela se fait lentement au fil du temps lorsque le serveur n'est pas autrement occupé. Pour cette raison, vos messages peuvent être supprimés un peu plus tard que le seuil d'ancienneté défini.
+    explanation: Parce que la suppression de pouets est une opération lourde, cela se fait lentement au fil du temps lorsque le serveur n'est pas autrement occupé. Pour cette raison, vos pouets peuvent être supprimés un peu plus tard que le seuil d'ancienneté défini.
     ignore_favs: Ignorer les favoris
     ignore_reblogs: Ignorer les partages
     interaction_exceptions: Exceptions basées sur les interactions
-    interaction_exceptions_explanation: Notez qu'il n'est pas garanti que les messages soient supprimés s'ils passent sous le seuil des favoris ou des partages une fois qu'ils les ont dépassés.
-    keep_direct: Conserver les messages directs
-    keep_direct_hint: Ne supprime aucun de vos messages directs
-    keep_media: Conserver les messages avec des fichiers médias joints
-    keep_media_hint: Ne supprime pas les messages contenant des fichiers médias joints
-    keep_pinned: Conserver les messages épinglés
-    keep_pinned_hint: Ne supprime aucun de vos messages épinglés
+    interaction_exceptions_explanation: Notez qu'il n'est pas garanti que les pouets soient supprimés s'ils passent sous le seuil des favoris ou des partages une fois qu'ils les ont dépassés.
+    keep_direct: Conserver les pouets directs
+    keep_direct_hint: Ne supprime aucun de vos pouets directs
+    keep_media: Conserver les pouets avec des fichiers médias joints
+    keep_media_hint: Ne supprime pas les pouets contenant des fichiers médias joints
+    keep_pinned: Conserver les pouets épinglés
+    keep_pinned_hint: Ne supprime aucun de vos pouets épinglés
     keep_polls: Conserver les sondages
     keep_polls_hint: Ne supprime aucun de vos sondages
-    keep_self_bookmark: Conserver les messages que vous avez mis en marque-page
-    keep_self_bookmark_hint: Ne supprime pas vos propres messages si vous les avez ajoutés aux marque-pages
-    keep_self_fav: Conserver les messages que vous avez mis dans vos favoris
-    keep_self_fav_hint: Ne supprime pas vos propres messages si vous les avez ajoutés à vos favoris
+    keep_self_bookmark: Conserver les pouets que vous avez mis en marque-page
+    keep_self_bookmark_hint: Ne supprime pas vos propres pouets si vous les avez ajoutés aux marque-pages
+    keep_self_fav: Conserver les pouets que vous avez mis dans vos favoris
+    keep_self_fav_hint: Ne supprime pas vos propres pouets si vous les avez ajoutés à vos favoris
     min_age:
       '1209600': 2 semaines
       '15778476': 6 mois
@@ -1511,12 +1511,12 @@ fr:
       '63113904': 2 ans
       '7889238': 3 mois
     min_age_label: Seuil d'ancienneté
-    min_favs: Conserver les messages mis en favoris au moins
-    min_favs_hint: Ne supprime aucun de vos messages qui ont reçu au moins ce nombre de favoris. Laisser vide pour supprimer les messages quel que soit leur nombre de favoris
-    min_reblogs: Conserver les messages partagés au moins
-    min_reblogs_hint: Ne supprime aucun de vos messages qui ont été partagés au moins ce nombre de fois. Laisser vide pour supprimer les messages indépendamment de leur nombre de partages
+    min_favs: Conserver les pouets mis en favoris au moins
+    min_favs_hint: Ne supprime aucun de vos pouets qui ont reçu au moins ce nombre de favoris. Laisser vide pour supprimer les pouets quel que soit leur nombre de favoris
+    min_reblogs: Conserver les pouets partagés au moins
+    min_reblogs_hint: Ne supprime aucun de vos pouets qui ont été partagés au moins ce nombre de fois. Laisser vide pour supprimer les pouets indépendamment de leur nombre de partages
   stream_entries:
-    pinned: Message épinglé
+    pinned: Pouet épinglé
     reblogged: a partagé
     sensitive_content: Contenu sensible
   tags:
@@ -1528,8 +1528,8 @@ fr:
 
       <ul>
       <li><em>Informations de base sur votre compte</em> : si vous vous inscrivez sur ce serveur, il vous sera demandé de rentrer un identifiant, une adresse électronique et un mot de passe. Vous pourrez également ajouter des informations additionnelles sur votre profil, telles qu’un nom public et une biographie, ainsi que téléverser une image de profil et une image d’en-tête. Vos identifiant, nom public, biographie, image de profil et image d’en-tête seront toujours affichés publiquement.</li>
-      <li><em>Posts, liste d’abonnements et autres informations publiques</em> : la liste de vos abonnements ainsi que la liste de vos abonné·e·s sont publiques. Quand vous postez un message, la date et l’heure d’envoi ainsi que le nom de l’application utilisée pour sa transmission sont enregistré·e·s. Des médias, tels que des images ou des vidéos, peuvent être joints aux messages. Les posts publics et non listés sont affichés publiquement. Quand vous mettez en avant un post sur votre profil, ce post est également affiché publiquement. Vos messages sont délivrés à vos abonné·e·s, ce qui, dans certains cas, signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Quand vous supprimez un post, il est probable que l'action soit aussi délivrée à vos abonné·e·s. Partager un message ou le marquer comme favori est toujours une action publique.</li>
-      <li><em>Posts directs et abonné·e·s uniquement</em> : tous les posts sont stockés et traités par le serveur. Les messages abonné·e·s uniquement ne sont transmis qu’à vos abonné·e·s et aux personnes mentionnées dans le corps du message, tandis que les messages directs ne sont transmis qu’aux personnes mentionnées. Dans certains cas, cela signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Nous faisons un effort de bonne foi pour en limiter l’accès uniquement aux personnes autorisées, mais ce n’est pas nécessairement le cas des autres serveurs. Il est donc très important que vous vérifiiez les serveurs auxquels appartiennent vos abonné·e·s. Il vous est possible d’activer une option dans les paramètres afin d’approuver et de rejeter manuellement les nouveaux·lles abonné·e·s. <em>Gardez s’il vous plaît en mémoire que les opérateur·rice·s du serveur ainsi que celles et ceux de n’importe quel serveur récepteur peuvent voir ces messages</em> et qu’il est possible pour les destinataires de faire des captures d’écran, de copier et plus généralement de repartager ces messages. <em>Ne partagez aucune information sensible à l’aide de Mastodon !</em></li>
+      <li><em>Posts, liste d’abonnements et autres informations publiques</em> : la liste de vos abonnements ainsi que la liste de vos abonné·e·s sont publiques. Quand vous postez un pouet, la date et l’heure d’envoi ainsi que le nom de l’application utilisée pour sa transmission sont enregistré·e·s. Des médias, tels que des images ou des vidéos, peuvent être joints aux pouets. Les posts publics et non listés sont affichés publiquement. Quand vous mettez en avant un post sur votre profil, ce post est également affiché publiquement. Vos pouets sont délivrés à vos abonné·e·s, ce qui, dans certains cas, signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Quand vous supprimez un post, il est probable que l'action soit aussi délivrée à vos abonné·e·s. Partager un pouet ou le marquer comme favori est toujours une action publique.</li>
+      <li><em>Posts directs et abonné·e·s uniquement</em> : tous les posts sont stockés et traités par le serveur. Les pouets abonné·e·s uniquement ne sont transmis qu’à vos abonné·e·s et aux personnes mentionnées dans le corps du pouet, tandis que les pouets directs ne sont transmis qu’aux personnes mentionnées. Dans certains cas, cela signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Nous faisons un effort de bonne foi pour en limiter l’accès uniquement aux personnes autorisées, mais ce n’est pas nécessairement le cas des autres serveurs. Il est donc très important que vous vérifiiez les serveurs auxquels appartiennent vos abonné·e·s. Il vous est possible d’activer une option dans les paramètres afin d’approuver et de rejeter manuellement les nouveaux·lles abonné·e·s. <em>Gardez s’il vous plaît en mémoire que les opérateur·rice·s du serveur ainsi que celles et ceux de n’importe quel serveur récepteur peuvent voir ces pouets</em> et qu’il est possible pour les destinataires de faire des captures d’écran, de copier et plus généralement de repartager ces pouets. <em>Ne partagez aucune information sensible à l’aide de Mastodon !</em></li>
       <li><em>IP et autres métadonnées</em> : quand vous vous connectez, nous enregistrons votre adresse IP ainsi que le nom de votre navigateur web. Toutes les sessions enregistrées peuvent être consultées dans les paramètres, afin que vous puissiez les surveiller et éventuellement les révoquer. La dernière adresse IP utilisée est conservée pour une durée de 12 mois. Nous sommes également susceptibles de conserver les journaux du serveur, ce qui inclut l’adresse IP de chaque requête reçue.</li>
       </ul>
 
@@ -1542,7 +1542,7 @@ fr:
       <ul>
       <li>pour vous fournir les fonctionnalités de base de Mastodon. Vous ne pouvez interagir avec le contenu des autres et poster votre propre contenu que lorsque vous êtes connecté·e. Par exemple, vous pouvez vous abonner à plusieurs autres comptes pour voir l’ensemble de leurs posts dans votre fil d’accueil personnalisé.</li>
       <li>pour aider à la modération de la communauté : par exemple, comparer votre adresse IP avec d’autres afin de déterminer si un bannissement a été contourné ou si une autre violation aux règles a été commise.</li>
-      <li>l’adresse électronique que vous nous avez fournie peut être utilisée pour vous envoyer des informations, des notifications lorsque d’autres personnes interagissent avec votre contenu ou vous envoient des messages, pour répondre à des demandes de votre part ainsi que pour toutes autres requêtes ou questions.</li>
+      <li>l’adresse électronique que vous nous avez fournie peut être utilisée pour vous envoyer des informations, des notifications lorsque d’autres personnes interagissent avec votre contenu ou vous envoient des pouets, pour répondre à des demandes de votre part ainsi que pour toutes autres requêtes ou questions.</li>
       </ul>
 
       <hr class="spacer" />
@@ -1580,7 +1580,7 @@ fr:
 
       <p>Nous ne vendons, n’échangeons ou ne transférons d’une quelconque manière que ce soit des informations permettant de vous identifier personnellement. Cela n’inclut pas les tiers de confiance qui nous aident à faire fonctionner ce site, à conduire nos activités commerciales ou à vous servir, du moment qu’ils acceptent de garder ces informations confidentielles. Nous sommes également susceptibles de partager vos informations quand nous pensons que cela est nécessaire pour nous conformer à la loi, pour faire respecter les règles de notre site, ainsi que pour défendre nos droits, notre propriété, notre sécurité, ou ceux d’autres personnes.</p>
 
-      <p>Votre contenu public peut être téléchargé par d’autres serveurs du réseau. Dans le cas où vos abonné·e·s et vos destinataires résideraient sur des serveurs différents du vôtre, vos posts publics et abonné·e·s uniquement peuvent être délivrés vers les serveurs de vos abonné·e·s tandis que vos messages directs sont délivrés aux serveurs de vos destinataires.</p>
+      <p>Votre contenu public peut être téléchargé par d’autres serveurs du réseau. Dans le cas où vos abonné·e·s et vos destinataires résideraient sur des serveurs différents du vôtre, vos posts publics et abonné·e·s uniquement peuvent être délivrés vers les serveurs de vos abonné·e·s tandis que vos pouets directs sont délivrés aux serveurs de vos destinataires.</p>
 
       <p>Quand vous autorisez une application à utiliser votre compte, en fonction de l’étendue des permissions que vous approuvez, il est possible qu’elle puisse accéder aux informations publiques de votre profil, à votre liste d’abonnements, votre liste d’abonné·e·s, vos listes, tous vos posts et vos favoris. Les applications ne peuvent en aucun cas accéder à votre adresse électronique et à votre mot de passe.</p>
 
@@ -1656,26 +1656,26 @@ fr:
         spam: Indésirable
         violation: Le contenu enfreint les directives de la communauté suivantes
       explanation:
-        delete_statuses: Il a été constaté que certains de vos messages enfreignent une ou plusieurs directives de la communauté. Par conséquent, ils ont été supprimés par l'équipe de modération de %{instance}.
+        delete_statuses: Il a été constaté que certains de vos pouets enfreignent une ou plusieurs directives de la communauté. Par conséquent, ils ont été supprimés par l'équipe de modération de %{instance}.
         disable: Vous ne pouvez plus utiliser votre compte, mais votre profil et d'autres données restent intacts. Vous pouvez demander une sauvegarde de vos données, modifier les paramètres de votre compte ou supprimer votre compte.
-        mark_statuses_as_sensitive: Certains de vos messages ont été marqués comme sensibles par l'équipe de modération de %{instance}. Cela signifie qu'il faudra cliquer sur le média pour pouvoir en afficher un aperçu. Vous pouvez marquer les médias comme sensibles vous-même lorsque vous posterez à l'avenir.
+        mark_statuses_as_sensitive: Certains de vos pouets ont été marqués comme sensibles par l'équipe de modération de %{instance}. Cela signifie qu'il faudra cliquer sur le média pour pouvoir en afficher un aperçu. Vous pouvez marquer les médias comme sensibles vous-même lorsque vous posterez à l'avenir.
         sensitive: Désormais, tous vos fichiers multimédias téléchargés seront marqués comme sensibles et cachés derrière un avertissement à cliquer.
-        silence: Vous pouvez toujours utiliser votre compte, mais seules les personnes qui vous suivent déjà verront vos messages sur ce serveur, et vous pourriez être exclu de diverses fonctions de découverte. Cependant, d'autres personnes peuvent toujours vous suivre manuellement.
+        silence: Vous pouvez toujours utiliser votre compte, mais seules les personnes qui vous suivent déjà verront vos pouets sur ce serveur, et vous pourriez être exclu de diverses fonctions de découverte. Cependant, d'autres personnes peuvent toujours vous suivre manuellement.
         suspend: Vous ne pouvez plus utiliser votre compte, votre profil et vos autres données ne sont plus accessibles. Vous pouvez toujours vous connecter pour demander une sauvegarde de vos données jusqu'à leur suppression complète dans environ 30 jours, mais nous conserverons certaines données de base pour vous empêcher d'échapper à la suspension.
       reason: 'Motif :'
-      statuses: 'Messages cités :'
+      statuses: 'Pouets cités :'
       subject:
-        delete_statuses: Vos messages sur %{acct} ont été supprimés
+        delete_statuses: Vos pouets sur %{acct} ont été supprimés
         disable: Votre compte %{acct} a été gelé
-        mark_statuses_as_sensitive: Vos messages sur %{acct} ont été marqués comme sensibles
+        mark_statuses_as_sensitive: Vos pouets sur %{acct} ont été marqués comme sensibles
         none: Avertissement pour %{acct}
-        sensitive: Vos messages sur %{acct} seront désormais marqués comme sensibles
+        sensitive: Vos pouets sur %{acct} seront désormais marqués comme sensibles
         silence: Votre compte %{acct} a été limité
         suspend: Votre compte %{acct} a été suspendu
       title:
-        delete_statuses: Messages supprimés
+        delete_statuses: Pouets supprimés
         disable: Compte gelé
-        mark_statuses_as_sensitive: Messages marqués comme sensibles
+        mark_statuses_as_sensitive: Pouets marqués comme sensibles
         none: Avertissement
         sensitive: Compte marqué comme sensible
         silence: Compte limité
@@ -1685,11 +1685,11 @@ fr:
       edit_profile_step: Vous pouvez personnaliser votre profil en téléchargeant un avatar, une image d’en-tête, en changeant votre pseudo et plus encore. Si vous souhaitez examiner les nouveaux·lles abonné·e·s avant qu’iels ne soient autorisé·e·s à vous suivre, vous pouvez verrouiller votre compte.
       explanation: Voici quelques conseils pour vous aider à démarrer
       final_action: Commencez à publier
-      final_step: 'Commencez à publier ! Même sans abonné·e·s, vos messages publics peuvent être vus par d’autres, par exemple sur le fil public local et dans les hashtags. Vous pouvez vous présenter sur le hashtag #introductions.'
+      final_step: 'Commencez à publier ! Même sans abonné·e·s, vos pouets publics peuvent être vus par d’autres, par exemple sur le fil public local et dans les hashtags. Vous pouvez vous présenter sur le hashtag #introductions.'
       full_handle: Votre identifiant complet
-      full_handle_hint: C’est ce que vous diriez à vos ami·e·s pour leur permettre de vous envoyer un message ou vous suivre à partir d’un autre serveur.
+      full_handle_hint: C’est ce que vous diriez à vos ami·e·s pour leur permettre de vous envoyer un pouet ou vous suivre à partir d’un autre serveur.
       review_preferences_action: Modifier les préférences
-      review_preferences_step: Assurez-vous de définir vos préférences, telles que les courriels que vous aimeriez recevoir ou le niveau de confidentialité auquel vous publier vos messages par défaut. Si vous n’avez pas le mal des transports, vous pouvez choisir d’activer la lecture automatique des GIF.
+      review_preferences_step: Assurez-vous de définir vos préférences, telles que les courriels que vous aimeriez recevoir ou le niveau de confidentialité auquel vous publier vos pouets par défaut. Si vous n’avez pas le mal des transports, vous pouvez choisir d’activer la lecture automatique des GIF.
       subject: Bienvenue sur Mastodon
       tip_federated_timeline: Le fil public global est une vue en direct du réseau Mastodon. Mais elle n’inclut que les personnes auxquelles vos voisin·e·s sont abonné·e·s, donc elle n’est pas complète.
       tip_following: Vous suivez les administrateurs de votre serveur par défaut. Pour trouver d’autres personnes intéressantes, consultez les fils publics local et global.
