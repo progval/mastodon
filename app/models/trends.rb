@@ -40,7 +40,7 @@ module Trends
   end
 
   def self.enabled?
-    Setting.trends
+    false
   end
 
   def self.available_locales
