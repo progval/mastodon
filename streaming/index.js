@@ -14,7 +14,7 @@ const fs = require('fs');
 const WebSocket = require('ws');
 
 const env = process.env.NODE_ENV || 'development';
-const alwaysRequireAuth = process.env.LIMITED_FEDERATION_MODE === 'true' || process.env.WHITELIST_MODE === 'true' || process.env.AUTHORIZED_FETCH === 'true';
+const alwaysRequireAuth = process.env.LIMITED_FEDERATION_MODE === 'true' || process.env.WHITELIST_MODE === 'true' || process.env.AUTHORIZED_FETCH !== 'false';
 
 dotenv.config({
   path: env === 'production' ? '.env.production' : '.env',
