@@ -1,7 +1,7 @@
 ![Mastodon](https://i.imgur.com/NhZc40l.png)
 ========
 
-[![GitHub release](https://img.shields.io/github/release/mastodon/mastodon.svg)][releases]
+[![GitHub release](https://img.shields.io/github/release/tootsuite/mastodon.svg)][releases]
 [![Build Status](https://img.shields.io/circleci/project/github/mastodon/mastodon.svg)][circleci]
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/mastodon/mastodon.svg)][code_climate]
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/mastodon/localized.svg)][crowdin]
