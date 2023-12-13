@@ -31,11 +31,11 @@
       class: Scheduler::VacuumScheduler
       queue: scheduler
     follow_recommendations_scheduler:
-      cron: '<%= Random.rand(0..59) %> <%= Random.rand(6..9) %> * * *'
+      cron: '<%= Random.rand(0..59) %> <%= Random.rand(0..5) %> * * *'
       class: Scheduler::FollowRecommendationsScheduler
       queue: scheduler
     user_cleanup_scheduler:
-      cron: '<%= Random.rand(0..59) %> <%= Random.rand(4..6) %> * * *'
+      cron: '<%= Random.rand(0..59) %> <%= Random.rand(3..5) %> * * *'
       class: Scheduler::UserCleanupScheduler
       queue: scheduler
     ip_cleanup_scheduler:
